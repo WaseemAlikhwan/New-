@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('doctors', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->foreignId('competency_id')->references('id')->on('competencies')->onDelete('cascade');
             $table->timestamps();
         });
     }
