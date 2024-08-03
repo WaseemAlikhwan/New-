@@ -2,17 +2,17 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Doctor;
+use App\Models\Competency;
 use Illuminate\Http\Request;
 
-class DoctorController extends Controller
+class CompetencyController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('layouts.Doctor.index');
+        //
     }
 
     /**
@@ -34,7 +34,7 @@ class DoctorController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Doctor $doctor)
+    public function show(Competency $competency)
     {
         //
     }
@@ -42,7 +42,7 @@ class DoctorController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Doctor $doctor)
+    public function edit(Competency $competency)
     {
         //
     }
@@ -50,7 +50,7 @@ class DoctorController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Doctor $doctor)
+    public function update(Request $request, Competency $competency)
     {
         //
     }
@@ -58,7 +58,7 @@ class DoctorController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Doctor $doctor)
+    public function destroy(Competency $competency)
     {
         //
     }

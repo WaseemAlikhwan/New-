@@ -20,6 +20,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('test',function(){
-    return view('test');
-});
+Route::get('/home/doctors', [App\Http\Controllers\DoctorController::class, 'index'])->name('doctors');
+Route::get('/home/competency', [App\Http\Controllers\CompetencyController::class, 'index'])->name('Competency');
