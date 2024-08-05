@@ -3,24 +3,27 @@
 namespace App\Http\Controllers;
 
 use App\Models\Competency;
+use App\Models\Doctor;
+
 use Illuminate\Http\Request;
 
 class CompetencyController extends Controller
 {
     /**
      * Display a listing of the resource.
-     */
+     
     public function index()
     {
-        //
+
     }
 
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function Create()
     {
-        //
+        // $x=Competency::all();
+        // return view('Competency.Create',['competencies'=>$x]);
     }
 
     /**
