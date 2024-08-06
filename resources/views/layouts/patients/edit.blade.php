@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="text-center">
-  <button type="submit" class="btn btn-primary">edit</button>
+  <button type="submit" class="btn btn-primary">update</button>
   
 </div>
 </form>
