@@ -321,9 +321,15 @@ return [
             'icon' => 'far fa-fw fa-file',
             'label_color' => 'success',
         ],
+        // [
+        //     'text' => 'Competency',
+        //     'route' => 'doctors',
+        //     'icon' => 'far fa-fw fa-file',
+        //     'label_color' => 'success',
+        // ],
         [
-            'text' => 'Competency',
-            'route' => 'doctors',
+            'text' => 'Ratings',
+            'route' => 'rating',
             'icon' => 'far fa-fw fa-file',
             'label_color' => 'success',
         ],
