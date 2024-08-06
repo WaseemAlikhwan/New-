@@ -8,7 +8,7 @@
     <table class="table">
         <thead>
               <td>doctor_name</td>
-              <td>patient_name</td>
+              <td>user_name</td>
               <td>date</td>
               <td>hour</td>             
          </thead>
@@ -24,55 +24,11 @@
          @endforeach
         </tbody>
       </table>
-
+      <div class="text-center">
+  <a class="btn btn-success" href='/home/times/create/{patient}'>create</a>
+      </div>
 @stop
 
 
 
-{{--@extends('adminlte::page')
 
-@section('title', 'Dashboard')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@section('content_header')
-    <h1>Dashboard</h1>
-@stop
-
-@section('content')
-    <p>Welcome to this beautiful admin panel.</p>
-@stop
---}}
-
-{{--
-@section('css')
---}}
-    {{-- Add here extra stylesheets --}}
-    {{-- <link rel="stylesheet" href="/css/admin_custom.css"> --}}
-{{--
-@stop
-
-@section('js')
-    <script> console.log("Hi, I'm using the Laravel-AdminLTE package!"); </script>
-@stop
---}}

@@ -327,6 +327,19 @@ return [
             'icon' => 'far fa-fw fa-file',
             'label_color' => 'success',
         ],
+        [
+            'text' => 'patients',
+            'route' => 'patients',
+            'icon' => 'far fa-fw fa-file',
+            'label_color' => 'success',
+        ],
+     /*   [
+            'text' => 'times',
+            'route' => 'times',
+            'icon' => 'far fa-fw fa-file',
+            'label_color' => 'success',
+        ],
+     */
 
 
 
