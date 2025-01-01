@@ -29,7 +29,20 @@
             <li>{!! \Session::get('success') !!}</li>
         </ul>
     </div>
-@endif
+    @endif
+     @if (\Session::has('danger'))
+    <div class="alert alert-danger">
+        <ul>
+            <li>{!! \Session::get('danger') !!}</li>
+        </ul>
+    </div>
+    @endif
+
+
+
+
+
+
         </tbody>
       </table>
       <div class="text-center">

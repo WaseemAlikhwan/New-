@@ -15,12 +15,12 @@ use App\Http\Controllers\TimeController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+Auth::routes(['register' => false]);
 Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+//Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/home/doctors', [DoctorController::class, 'index'])->name('doctors');

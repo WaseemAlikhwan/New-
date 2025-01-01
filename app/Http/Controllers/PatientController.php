@@ -30,11 +30,15 @@ class PatientController extends Controller
     public function store(Request $request)
     {
               
-            $data = [
-              'name' => $request->name,
-              'email' =>$request->email,
-         
-          ];
+        $request->validate([
+               'name'=>['required','string'],
+               'email'=>['required','email'],
+
+        ]);
+  
+
+
+
           Patient::create([
             'name' => $request->name,
             'email' =>$request->email,
@@ -89,6 +93,6 @@ class PatientController extends Controller
     {         
         $patient=patient::find($id);
        $patient->delete();
-       return redirect('/home/patients')->with('success','you delete a patient!');
+       return redirect('/home/patients')->with('danger','you delete a patient!');
     }
 }

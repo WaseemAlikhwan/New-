@@ -17,7 +17,7 @@
         <tr>
         
             <td>{{$time->doctor['name']}}</td> 
-             <td>{{$time->user['name']}}</td> 
+             <td>{{$time->patient['name']}}</td> 
              <td>{{$time->date}}</td> 
               <td>{{$time->hour}}</td>
        </tr> 

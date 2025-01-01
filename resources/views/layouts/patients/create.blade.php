@@ -11,12 +11,18 @@
     <label for="inputEmail3" class="col-sm-2 col-form-label">name</label>
     <div class="col-sm-10">
       <input type="text" class="form-control" id="inputEmail3" name="name">
+    @error('name')
+    <span class="fs-6 text-danger text-center">{{$message}}</span>
+    @enderror
     </div>
   </div>
   <div class="row mb-3">
     <label for="inputPassword3" class="col-sm-2 col-form-label">email</label>
     <div class="col-sm-10">
       <input type="email" class="form-control" id="inputPassword3" name="email">
+    @error('email')
+    <span class="fs-6 text-danger text-center">{{$message}}</span>
+    @enderror
     </div>
   </div>
   

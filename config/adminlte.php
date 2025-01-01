@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'MedicalCenter',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => '<b>Medical</b>Center',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -295,7 +295,7 @@ return [
 
     'menu' => [
         // Navbar items:
-        [
+      /*  [
             'type' => 'navbar-search',
             'text' => 'search',
             'topnav_right' => true,
@@ -304,18 +304,18 @@ return [
             'type' => 'fullscreen-widget',
             'topnav_right' => true,
         ],
-
+            */
         // Sidebar items:
-        [
+       /* [
             'type' => 'sidebar-menu-search',
             'text' => 'search',
-        ],
-        [
+        ],*/
+        /*[
             'text' => 'blog',
             'url' => 'admin/blog',
             'can' => 'manage-blog',
-        ],
-        [
+        ],*/
+       /* [
             'text' => 'Doctors',
             'route' => 'doctors',
             'icon' => 'far fa-fw fa-file',
@@ -326,7 +326,7 @@ return [
             'route' => 'doctors',
             'icon' => 'far fa-fw fa-file',
             'label_color' => 'success',
-        ],
+        ],*/
         [
             'text' => 'patients',
             'route' => 'patients',
@@ -343,8 +343,8 @@ return [
 
 
 
-        ['header' => 'account_settings'],
-        [
+        //['header' => 'account_settings'],
+       /* [
             'text' => 'profile',
             'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-user',
@@ -407,8 +407,9 @@ return [
             'text' => 'information',
             'icon_color' => 'cyan',
             'url' => '#',
-        ],
+        ],*/
     ],
+    
 
     /*
     |--------------------------------------------------------------------------
